@@ -1,0 +1,18 @@
+body {
+    font-size: x-large;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+label {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+input[type="number"] {
+    font-size: large;
+    width: 58px;
+}
+
