@@ -2,7 +2,7 @@
 
 ### [For a demo click here](http://jimblackler.github.io/fraction_decimal_graph/?d=56&b=10)
 
-I’ve written a web app that generate diagrams showing the sequence of digits when a fraction (such as ¼) is written in decimal form (0.25). One diagram can be used for every fraction (non-negative [proper fraction](https://en.wikipedia.org/wiki/Fraction_(mathematics)#Proper_and_improper_fractions)) with a particular value on the bottom (the denominator). My program feeds data into the [springy.js framework](http://getspringy.com/) which uses a [force-based layout](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) to draws network diagrams of graphs.
+I’ve written a web app that generates diagrams showing the sequence of digits when a fraction (such as ¼) is written in decimal form (0.25). One diagram can be used for every fraction (non-negative [proper fraction](https://en.wikipedia.org/wiki/Fraction_(mathematics)#Proper_and_improper_fractions)) with a particular value on the bottom (the denominator). My program feeds data into the [springy.js framework](http://getspringy.com/) which uses a [force-based layout](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) to draws network diagrams of graphs.
 
 To see how to find the decimal form of 21 / 56, click on the [demo link](http://jimblackler.github.io/fraction_decimal_graph/?d=56&b=10). This diagram can be used to find the decimal form any non-negative proper fraction with 56 on the bottom.
 
@@ -13,6 +13,8 @@ You’ve written “0.”, “3”, “7”, “5”. A quick check on a calcula
 This diagram works for all other fractions with a denominator of 56 and numerator between zero and 55. On the same diagram try for ‘18’. The sequence starts out “3”, “2” but after a bit you’ll find you’re in a cycle that starts “1”, “4”, “2”, “8”, “5”, “7”, then returns to “1”.
 
 Checking with a calculator shows me that 18 / 56 is _0.32142857142857142857…_ repeating forever.
+
+## Motivation
 
 I made the app because I was wondering if there was a rule to say which fractions had repeating sequences when written as decimals, and it occurred to me how easy it would be to generate a graph from the data using a standard tool. I’m still thinking about the rule problem, but the diagrams help visualize the problem.
 
